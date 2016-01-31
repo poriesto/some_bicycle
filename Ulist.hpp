@@ -1,9 +1,7 @@
 //
 // Created by porie on 25.06.2015.
 //
-
-#ifndef UNTITLED_ULIST_HPP
-#define UNTITLED_ULIST_HPP
+#pragma once
 
 #include <memory>
 #include <iostream>
@@ -98,5 +96,3 @@ public:
         }
     }
 };
-
-#endif //UNTITLED_ULIST_HPP

@@ -1,9 +1,7 @@
 //
 // Created by porie on 23.06.2015.
 //
-
-#ifndef UNTITLED_ILIST_H
-#define UNTITLED_ILIST_H
+#pragma once
 
 #include <memory>
 #include <iostream>
@@ -94,6 +92,3 @@ protected:
     Node<ElemType> * _head = nullptr;
     Node<ElemType> * _tail;
 };
-
-
-#endif //UNTITLED_ILIST_H

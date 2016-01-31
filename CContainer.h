@@ -1,9 +1,7 @@
 //
 // Created by porie on 22.06.2015.
 //
-
-#ifndef UNTITLED_CCONTAINER_H
-#define UNTITLED_CCONTAINER_H
+#pragma once
 
 #include <utility>
 #include <initializer_list>
@@ -33,6 +31,3 @@ public:
         return result->second;
     }
 };
-
-
-#endif //UNTITLED_CCONTAINER_H

@@ -1,9 +1,7 @@
 //
 // Created by porie on 24.06.2015.
 //
-
-#ifndef UNTITLED_HLIST_H
-#define UNTITLED_HLIST_H
+#pragma once
 
 #include <memory>
 #include <iostream>
@@ -75,5 +73,3 @@ private:
     size_t _size = 0;
     unsigned int _pos = 0;
 };
-
-#endif //UNTITLED_HLIST_H

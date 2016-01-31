@@ -1,9 +1,7 @@
 //
 // Created by porie on 22.06.2015.
 //
-
-#ifndef UNTITLED_ICONTAINER_H
-#define UNTITLED_ICONTAINER_H
+#pragma once
 
 #include <map>
 
@@ -25,4 +23,3 @@ public:
     virtual void PutElem( const IndexType& index, const ElemType& elem )
             throw () = 0;
 };
-#endif //UNTITLED_ICONTAINER_H
